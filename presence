@@ -80,7 +80,6 @@ presence.on("UpdateData", async () => {
 		];
 	} else {
 		// Browsing
-		// Browsing
 		presenceData.details = (await strings).browsing;
 		presenceData.startTimestamp = Math.floor(Date.now() / 1000);
 	}
